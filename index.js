@@ -33,7 +33,7 @@ function listBelanjaan (arrayDataBelanja) {
 
 // boleh dimodifikasi bila ingin menggunakan deklarasi fungsi yang normal
 function totalBelanjaan (arrayDataBelanja){
-const jumlahBelanja = 0;
+let jumlahBelanja = 0;
 
 for (let index = 0; index < arrayDataBelanja.length; index++) {
   jumlahBelanja = jumlahBelanja + (arrayDataBelanja[index].kuantitas*arrayDataBelanja[index].harga);
